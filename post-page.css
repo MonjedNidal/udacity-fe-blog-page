@@ -1,0 +1,77 @@
+@import url("style.css");
+
+body {
+  padding: 2rem;
+  font-size: 20px;
+  color: var(--main-text);
+}
+
+body h1 {
+  margin: 0px;
+}
+
+p {
+  margin-block: 1.5rem;
+}
+
+.back-link,
+.author-name {
+  color: var(--primary);
+}
+
+.back-link {
+  text-decoration: none;
+}
+
+.author-box {
+  display: flex;
+  margin-block: 2rem;
+}
+
+.author-info p {
+  margin: 0px;
+}
+
+.avatar {
+  margin-right: 1rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.left-bordered-paragraph {
+  padding: 0.7rem;
+  border-left: 3px solid var(--main-text);
+}
+
+.main-img {
+  border-radius: 10px;
+  width: 100%;
+  height: 350px;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+.left-bordered-code {
+  font-family: monospace;
+  padding: 2.6rem;
+  border-left: 3px solid var(--primary);
+  background-color: var(--light-grey);
+}
+
+ul {
+  list-style: circle;
+  margin-block: 2rem;
+  padding-left: 1.2rem;
+}
+
+ol {
+  margin-block: 2rem;
+  padding-left: 1.2rem;
+}
+
+li {
+  margin-block: 0.4rem;
+}
