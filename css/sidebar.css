@@ -1,0 +1,40 @@
+.sidebar {
+  grid-area: sd;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar ul {
+  padding: 0px;
+}
+
+.sidebar ul a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.sidebar ul li {
+  padding: 0.5rem 0rem;
+  list-style: none;
+}
+
+.sidebar .btn {
+  border: none;
+  outline: none;
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+#follow-btn {
+  background-color: var(--primary);
+  color: white;
+}
+
+#sub-btn {
+  background-color: white;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
